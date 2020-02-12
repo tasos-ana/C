@@ -152,7 +152,7 @@ Invalid blocks: 1 7
 <details><summary>Details</summary>
 <p>
 
-Γράψτε ένα πρόγραμμα (hw4a.c) που λύνει το παιχνίδι των πύργων του Ανόι:
+Γράψτε ένα πρόγραμμα (**[hw4.c](https://github.com/tasos-ana/C/blob/master/Basic/hw4.c)**) που λύνει το παιχνίδι των πύργων του Ανόι:
 - Υπάρχουν 3 κατακόρυφοι άξονες
 - Αρχικά στον πρώτο άξονα είναι περασμένοι Ν δίσκοι με διαφορετικές διαμέτρους έτσι
 ώστε κάθε δίσκος έχει πάνω του μόνο δίσκους με μικρότερες διαμέτρους
@@ -199,5 +199,57 @@ Invalid blocks: 1 7
 	|   |   1
 	|   |   222
 	-----------------
+</p>
+</details>
+
+# Διαμόρφωση κειμένου
+
+<details><summary>Details</summary>
+<p>
+
+Γράψτε ένα πρόγραμμα (**[hw5.c](https://github.com/tasos-ana/C/blob/master/Basic/hw5.c)**) που παίρνει 2 παραμέτρους από τη γραμμή εντολών:
+1. το όνομα ενός αρχείου κειμένου, και
+2. τον αριθμό Ν των χαρακτήρων ανά γραμμή.
+
+Το πρόγραμμα πρέπει να ανοίγει το δεδομένο αρχείο, να διαβάζει το κείμενο, και να το τυπώ-
+νει στην κύρια έξοδο στοιχισμένο σε γραμμές μήκους Ν. Η πρώτη λέξη κάθε γραμμής πρέπει
+να αρχίζει στο πρώτο γράμμα της γραμμής, και η τελευταία λέξη να τελειώνει στο τελευταίο
+γράμμα της γραμμής, δηλαδή να μην υπάρχουν κενά πριν την πρώτη ή μετά την τελευταία
+λέξη κάθε γραμμής. Για κάθε λέξη της εισόδου, το πρόγραμμα πρέπει να υπολογίζει αν χωράει
+η λέξη στην τρέχουσα γραμμή και αν ναι, να την προσθέτει. Αν η επόμενη λέξη δεν χωράει
+στην τρέχουσα γραμμή πρέπει να μπεί σε νέα γραμμή. Τότε το πρόγραμμα πρέπει να “γεμίσει”
+την προηγούμενη με όσα κενά χρειάζονται ανάμεσα στις λέξεις για να πάρει ακριβώς Ν χαρα-
+κτήρες, και θα την τυπώνει στην κύρια έξοδο. Τα κενά κάθε γραμμής πρέπει να είναι όσο το
+δυνατόν ισοκατανεμημένα μεταξύ των λέξεων. Κατ’ εξαίρεση, η τελευταία σειρά δεν πρέπει
+να είναι στοιχισμένη.
+
+**Παράδειγμα χρήσης** Έστω το αρχείο monologue.txt που περιέχει το κείμενο:
+
+	As you know, I’m quite keen of comic books, especially the
+	ones about superheroes. I find the whole mythology surrounding
+	superheroes fascinating. Take my favorite superhero; Superman, not a
+	great comic book, not particularly well-drawn, but the mythology;
+	the mythology is not only great, it’s unique.
+	Now, the staple of the superhero mythology is;
+	there is the superhero and there is the alter ego.
+	Batman is actually Bruce Wayne, Spiderman is actually Peter Parker;
+	when that character wakes up in the morning, he’s Peter Parker.
+	He has to put on a costume to become Spiderman and it is in that
+	characteristic, Superman stands alone.
+	
+Τότε η εντολή ./hw5 monologue.txt 60 θα πρέπει να παράγει την έξοδο:
+
+	As you know, I’m quite keen of comic books, especially the
+	ones about superheroes. I find the whole mythology
+	surrounding superheroes fascinating. Take my favorite
+	superhero; Superman, not a great comic book, not
+	particularly well-drawn, but the mythology; the mythology is
+	not only great, it’s unique. Now, the staple of the
+	superhero mythology is; there is the superhero and there is
+	the alter ego. Batman is actually Bruce Wayne, Spiderman is
+	actually Peter Parker; when that character wakes up in the
+	morning, he’s Peter Parker. He has to put on a costume to
+	become Spiderman and it is in that characteristic, Superman
+	stands alone.
 </p>
 </details>
