@@ -1,4 +1,4 @@
-/*
+ /*
  * Anastasas Anastasios 3166
  * Ex02-Hy255-String-modules
  * mystring.h
