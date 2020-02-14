@@ -1,4 +1,4 @@
-# [Συχνότητα](https://github.com/tasos-ana/C/blob/master/Basic/hw2a.c))
+# [Συχνότητα](https://github.com/tasos-ana/C/blob/master/Basic/hw2a.c)
 
 Γράψτε ένα πρόγραμμα **hw2a.c** που θα διαβάζει από το πληκτρολόγιο έναν ακέραιο αριθμό
 N, στη συνέχεια θα διαβάζει N λέξεις, θα υπολογίζει την πιο συχνή λέξη ανάμεσα στις N και
